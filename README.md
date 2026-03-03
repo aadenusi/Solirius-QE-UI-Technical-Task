@@ -91,7 +91,7 @@ npm test
 
 ### Run Tests in Headed Mode (visible browser)
 ```bash
-HEADLESS=false npm test
+npm run test:headed
 ```
 
 ### Run Tests with Reporting
@@ -106,7 +106,7 @@ BROWSER=firefox npm test
 
 ### Run Specific Feature
 ```bash
-npm test features/calculateHolidayEntitlement.feature
+npm test features/calculateHoliday.feature
 ```
 
 ## Test Scenarios
